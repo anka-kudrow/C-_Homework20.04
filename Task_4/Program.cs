@@ -21,8 +21,9 @@ else if (num2 > num1)
         max_num = num2;
 }
 else
+{
     max_num = num3;
-
+}
 Console.WriteLine(max_num);    
 
 
