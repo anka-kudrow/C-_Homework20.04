@@ -14,13 +14,15 @@ if(num1 > num2)
 {
     max = num1;
     min = num2;
-    Console.WriteLine("max = ", max); 
-    Console.WriteLine("min = ", min);
+    Console.WriteLine($"Max = {max}"); 
+    Console.WriteLine($"Min = {min}");
 }    
 else   
     max = num2;
     min = num1;
-    Console.WriteLine("max = ", max); 
-    Console.WriteLine("min = ", min);
+    Console.WriteLine($"Max = {max}"); 
+    Console.WriteLine($"Min = {min}");
+
+    
 
 
