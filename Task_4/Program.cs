@@ -9,17 +9,22 @@ Console.WriteLine("Write three numbers");
 int num1 = Convert.ToInt32(Console.ReadLine());
 int num2 = Convert.ToInt32(Console.ReadLine());
 int num3 = Convert.ToInt32(Console.ReadLine());
-max_num = 0;
+int max_num = 0;
 if(num1 > num2)
+{
     if(num1 > num3)
         max_num = num1;
-if else
+}        
+else if (num2 > num1)
 {
-    num2 > num1
-        if(num2 > num3)
-            max_num = num2;
+    if(num2 > num3)
+        max_num = num2;
 }
 else
     max_num = num3;
+
 Console.WriteLine(max_num);    
+
+
+
        
