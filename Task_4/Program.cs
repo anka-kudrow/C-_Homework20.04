@@ -15,6 +15,3 @@ if(num2 > max_num)
 if(num3 > max_num)
     max_num = num3;
 Console.WriteLine(max_num);
-
-
-       
